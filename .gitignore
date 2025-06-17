@@ -1,15 +1,36 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration files
 local.properties
+
+# Mac OS files
+.DS_Store
+
+# Android Studio specific
+.idea/
+*.iml
+*.ipr
+*.iws
+.cache/
+.cxx/
+
+# Log files
+*.log
+
+# Signing files (if any)
+*.jks
+*.keystore
+
+# Misc
+*.class
+*.apk
+*.ap_
+
+# Crashlytics
+fabric.properties
+
+# Google Services
+google-services.json
